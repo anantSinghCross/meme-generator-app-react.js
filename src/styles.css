@@ -1,0 +1,93 @@
+.header{
+    text-align: center;
+}
+
+.title{
+    font-family: impact, sans-serif;
+    text-transform: uppercase;
+}
+
+.formContainer{
+    /* background-color: #000; */
+    margin: auto;
+    position: relative;
+}
+
+form{
+    text-align: center;
+}
+
+img{
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.meme{
+    position: relative;
+    /* background: #000; */
+    margin: auto;
+    max-width: 400px;
+}
+
+.meme .topText{
+    top: 0;
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 10px 0;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+.meme .bottomText{
+    bottom: 0;
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 10px 0;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+input{
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    margin: 5px;
+}
+
+button{
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+}
